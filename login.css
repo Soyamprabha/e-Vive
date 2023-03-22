@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background:  linear-gradient(10deg, rgba(144,191,125,1) 12%, rgba(37,104,168,1)83%);
+    color: #020000;
+    padding-top: 8%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+    z-index: 2;
+    height: 130px;
+}
+
+.logo img {
+    width: 170px;
+    position: relative;
+    top: -30px;
+    left: 65px;
+}
+
+.showcase-content {
+    position:relative;
+    z-index: 2;
+    width: 450px;
+    height: 470px;
+    border-radius: 15px;
+    background: rgba(155 233 157 / 65%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0px 65px;
+}
+
+.button {
+    border: 0;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgba(5, 127, 148, 0.88);
+    border-radius: 0.25em;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+
+.button:hover, .button:focus {
+    background-color: #096847;
+}
+
+.form-box {
+    max-width: 50em;
+    height: 65vh;
+    background-color: rgba(151, 84, 84, 0.77);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 8em auto 0;
+    box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.5);
+  }
+
+  .form-box__content {
+    background-image: url(signimg.jpg);
+    background-repeat: no-repeat;
+    background-size:400px 450px;
+    background-color: #fff;
+    padding: 2em;
+  }
+  .form-box__title {
+    font-weight: 300;
+    font-size: 1.75em;
+    color: #133e40;
+    margin-top: 0;
+  }
+  .form-box__addon {
+    color: #333;
+  }
+
+  .form__field {
+    width: 100%;
+    font-size: 1em;
+    padding: 1em;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+  }
+
+  .help{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__field:focus {
+    outline: 0;
+    background-color: #fff;
+    border-color: rgba(12, 114, 136, 0.5);
+  }
+  .form__label {
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+  .form__button {
+    width: 100%;
+  }
+
+  .signup {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.signup p {
+    margin-right: 5px;
+    color: #000;
+}
