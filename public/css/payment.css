@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+font-family: 'Work Sans', sans-serif;
+background: rgb(144,191,125);
+background: -webkit-linear-gradient(to right, rgb(144,191,125), rgba(37,104,168)); 
+
+background: linear-gradient(10deg, rgba(144,191,125,1) 12%, rgba(37,104,168,1) 83%);
+
+}
+
+.card{
+   
+    margin-bottom: 100px;
+  background:#16181a;  
+  border-radius:14px;
+   max-width: 500px;
+    display:block; 
+    margin:auto;
+  padding:50px; 
+  padding-left:20px; 
+  padding-right:20px;
+  box-shadow: 2px 10px 40px black;
+   z-index:99;
+  
+   
+}
+
+.logo-card{
+    max-width:150px; 
+    margin-bottom:2px;
+     margin-top: 19px;
+     justify-content: center;
+}
+
+label{
+    display:flex;
+    height: 10px;
+     font-size:10px; 
+     color:rgb(255, 255, 255); 
+     opacity:1;
+     text-align: center;
+     margin-bottom:25px;
+}
+
+input{
+    font-family: 'Work Sans', sans-serif;
+    background:transparent; 
+    border:none;
+     border-bottom:1px solid transparent; 
+     color:#fffff5;
+      transition: border-bottom .4s;}
+    
+
+input:focus{
+    border-bottom:1px solid #0bffce; 
+    outline:none;}
+
+.cardnumber{
+  text-align: center;
+    display:block; 
+    font-size:20px; 
+    margin-bottom:1px; }
+
+.name{
+    display:block;
+     font-size:20px;
+      max-width: 200px; 
+      float:left; 
+      margin-bottom:15px;
+    }
+
+.toleft{
+    float:left;
+}
+.ccv{
+    float: right;
+    width:60px;
+     margin-top:-4px; 
+     margin-right: 100px;
+     font-size:20px;}
+    
+
+.receipt{
+    background: #fffafa;
+     border-radius:4px;
+      padding:5%; 
+      padding-top:250px; 
+      max-width:1000px; 
+      display:block;
+       margin:auto; 
+       margin-top:-180px; 
+       z-index:-999;
+        position:relative;}
+
+.col{
+    width:50%;
+     float: right;
+     text-align: center;
+    }
+.bought-items{
+    margin-top:1px;
+}
+
+.cost{
+    color:#3a7bd5;
+}
+.seller{
+    color: #3a7bd5;
+}
+.description{
+    font-size: 20px;
+}
+.price{
+    font-size:15px;
+}
+.comprobe{
+    text-align: center;
+}
+
+.proceed{
+    position:absolute;
+     transform:translate(480px, 20px); 
+     width:80px;
+      height:80px;
+       border-radius:50%;
+        background:#f48a00; 
+        border:none;
+        color:white;
+         transition: box-shadow .2s, transform .4s; 
+         cursor:pointer;
+        }
+.proceed:active{
+    outline:none;
+ }
+.proceed:focus{
+    outline:none;
+    box-shadow: inset 0px 0px 5px white;
+}
+.sendicon{
+    filter:invert(100%);
+     padding-top:2px;}
+
