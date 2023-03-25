@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profile Page</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.0/css/solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    />
+    <link rel="stylesheet" href="css/profile.css" />
+    <script src="js/profile.js" defer></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="navbar-inner">
+        <div class="navbar-left flexbox-left">
+          <div id="nav-button">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="navbar-center flexbox-left">
+          <img src="indeximg/logo.png" alt="" />
+        </div>
+        <div class="navbar-right flexbox-right">
+          <a class="profile-picture">
+            <img src="img/D-metal.png" width="100%" height="100%" alt="" />
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div id="dropdownmenu" class="flexbox-col">
+      <div class="menu-item">
+        <a><i class="uil uil-user"></i> Username</a>
+      </div>
+      <!-- <div id="switch" class="menu-item"><a><i class="uil uil-sunset"></i> Light Mode</a></div> -->
+      <div class="menu-item">
+        <a href="index.html"><i class="uil uil-arrow-right"></i> Logout</a>
+      </div>
+    </div>
+    <main class="flexbox-col">
+      <div class="profile-top">
+        <div class="profile-left">
+          <form
+            class="profile-pic-upload"
+            method="post"
+            action=""
+            enctype="multipart/form-data"
+          >
+            <div class="profile-pic-wrapper">
+              <img src="img/D-metal.png" class="profile-pic" alt="" />
+            </div>
+          </form>
+        </div>
+
+        <div class="profile-right flexbox-start-col">
+          <div class="profile-right-top">
+            <h3 class="profile-name">D-Metal</h3>
+          </div>
+          <div class="profile-right-bottom">
+            <div class="profile-bio-wrapper">
+              <p class="profile-bio">
+                <i class="fa-sharp fa-solid fa-location-dot"></i> Odisha
+                <br />
+                We go beyond industry standards to provide efficient, ethical
+                and environment friendly services.
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-page flexbox-col">
+        <div class="profile-page-nav flexbox">
+          <div class="profile-page-block">
+            <a class="postbutton"
+              ><i class="fas fa-shopping-cart"></i> Products</a
+            >
+          </div>
+          <div class="profile-page-block">
+            <a class="activitiesbutton"
+              ><i class="uil uil-apps"></i> Innovations</a
+            >
+          </div>
+          <div class="profile-page-block">
+            <a class="achievementsbutton"
+              ><i class="fa-sharp fa-solid fa-award"></i> Achievements</a
+            >
+          </div>
+        </div>
+        <div class="profile-page-inner"></div>
+      </div>
+
+      <footer id="footer">
+        <img src="indeximg/logo.png" alt="" />
+      </footer>
+    </main>
+    <!-- partial -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://unicons.iconscout.com/release/v3.0.0/script/monochrome/bundle.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f334ead1fc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
