@@ -36,7 +36,7 @@ background: linear-gradient(10deg, rgba(144,191,125,1) 12%, rgba(37,104,168,1) 8
 label{
     display:flex;
     height: 10px;
-     font-size:10px; 
+     font-size:18px; 
      color:rgb(255, 255, 255); 
      opacity:1;
      text-align: center;
