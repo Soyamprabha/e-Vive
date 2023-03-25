@@ -15,6 +15,17 @@ app.get('/',(req, res) => {
     res.sendFile("index.html",{root:"public"})
 })
 
+//sign up
+app.get('/signup',(req, res) => {
+    res.sendFile("signup.html", {root:"public"})
+})
+
+app.post('signup', (req, res) => {
+    const { name, email, password } = req.body;
+
+    //form validation
+})
+
 app.listen(3000, () => {
     console.log('listening on port 3000');
 })
