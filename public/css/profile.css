@@ -30,6 +30,12 @@ main {
   background-color: var(--gray-light);
   transition: all .25s ease-in-out;
 }
+
+.productsbutton a{
+    text-decoration: none;
+    color: #fff;
+}
+
 fieldset {
   margin: 0;
   padding: 0;
@@ -619,6 +625,7 @@ fieldset {
     right: 250px;
     position: absolute;
     z-index: 15;
+    color: #fff;
 }
 
 .products{
@@ -626,7 +633,7 @@ fieldset {
     color: #fff ;
     background-color: rgba(5, 127, 148, 0.88);
     border-radius: 16px;
-    transform: translate(-100%,140px);
+    transform: translate(-80%,140px);
     cursor: pointer;
     font-size: 20px;
     transition: all 0.3s ease;
