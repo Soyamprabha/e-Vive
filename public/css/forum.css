@@ -157,7 +157,7 @@ body{
     float: left;
     background-color: Transparent;
     color: #1D3354;
-    font-size: 15px;
+    font-size: 25px;
   }
   #chat_input_send{
     width: 5%;
@@ -209,7 +209,7 @@ body{
   }
   .message_user{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 25px;
   }
   .message_content_container{
     width: 100%;
@@ -220,14 +220,14 @@ body{
   }
   .message_content{
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 5px;
   }
   
   .enabled{
     transition: background-color 0.5s;
     color: #fff;
-    background-color: #D64045; /*#5B7553;*/
+    background-color: #096847; /*#5B7553;*/
     cursor: pointer;
   }
   #title_container.chat_title_container{
