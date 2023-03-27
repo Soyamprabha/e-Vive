@@ -32,7 +32,7 @@ let posts = `<div id="img1" class="image-wrapper flexbox">
 		</div>
 		
         <div class="productsbutton">
-        <button class="products" id="create-button">Buy Now</button>
+        <button class="products" id="create-button"><a href="product.html">More Products</a></button>
         </div>
 `
 let activities=`<div id="img7" class="image-wrapper flexbox">
