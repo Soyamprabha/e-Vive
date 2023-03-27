@@ -1,148 +1,88 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
-html {
-  height: 100%;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    background:  linear-gradient(10deg, rgba(144,191,125,1) 12%, rgba(37,104,168,1)83%);
-    color: #020000;
-    padding-top: 8%;
+  background-color: #0583D2;
 }
 
-ul {
-  list-style: none;
-}
-
-a {
-    color: #000;
-    text-decoration: none;
+h1 {
+  margin-bottom: 8%;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  color: #0583D2;
+  letter-spacing: 0.1em;
 }
 
 p {
-    margin: 0.5rem 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
 }
 
-img {
-    width: 100%;
+p span {
+  background:#fff;
+  padding:0 10px;
 }
 
-.logo {
-    position: relative;
-    z-index: 2;
-    height: 130px;
+input {
+  margin-bottom: 3%;
 }
 
-.logo img {
-    width: 170px;
-    position: relative;
-    top: -30px;
-    left: 65px;
+input:last-of-type {
+  margin-bottom: 0;
 }
 
-.showcase-content {
-    position:relative;
-    z-index: 2;
-    width: 450px;
-    height: 470px;
-    border-radius: 15px;
-    background: rgb(255 255 255 / 65%);
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: left;
-    padding: 0px 65px;
+input, button {
+  padding: 3%;
+  width: 100%;
 }
 
-.button {
-    border: 0;
-    font-size: 1em;
-    color: #fff;
-    background-color: rgba(5, 127, 148, 0.88);
-    border-radius: 0.25em;
-    padding: 1em;
-    margin-bottom: 1em;
-  }
-
-.button:hover, .button:focus {
-    background-color: #096847;
+.login-container {
+  background-color: white;
+  padding: 7%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* horizontal align */
+  width: 40vw;
+  margin-left: 30vw;
+  /* vertical align */
+  height: 70vh;
+  margin-top: 15vh;
 }
 
-.form-box {
-    max-width: 50em;
-    height: 65vh;
-    background-color: rgba(151, 84, 84, 0.77);
-    border-radius: 15px;
-    overflow: hidden;
-    margin: 8em auto 0;
-    box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.5);
-  }
-
-  .form-box__content {
-    background-image: url(signimg.jpg);
-    background-repeat: no-repeat;
-    background-size:400px 450px;
-    background-color: #fff;
-    padding: 2em;
-  }
-  .form-box__title {
-    font-weight: 300;
-    font-size: 1.75em;
-    color: #133e40;
-    margin-top: 0;
-  }
-  .form-box__addon {
-    color: #333;
-  }
-
-  .form__field {
-    width: 100%;
-    font-size: 1em;
-    padding: 1em;
-    border: 0;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 0.25em;
-    margin-bottom: 1em;
-  }
-
-  .help{
-    margin-bottom: 1em;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .form__field:focus {
-    outline: 0;
-    background-color: #fff;
-    border-color: rgba(12, 114, 136, 0.5);
-  }
-  .form__label {
-    text-transform: uppercase;
-    font-size: 1em;
-  }
-  .form__button {
-    width: 100%;
-  }
-
-  .signup {
-    position: relative;
-    left: 30px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+#submit, #create-acct-btn {
+  background-color: #0583D2;
+  color: white;
+  border: none;
+  margin-top: 5%;
 }
 
-.signup p {
-    margin-right: 5px;
-    color: #000;
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+#sign-up {
+  border: none;
+}
+
+#create-acct {
+  display: none;
+}
+
+#return-btn {
+  background: none;
+  color: grey;
+  text-decoration: underline;
+  border: none;
+  margin-top: 3%;
 }
