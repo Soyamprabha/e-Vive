@@ -29,3 +29,8 @@ app.post('signup', (req, res) => {
 app.listen(3000, () => {
     console.log('listening on port 3000');
 })
+
+//seller route
+app.get('/seller', (res,res)  => {
+res.sendFile('seller.html', {root : "public"})
+} )
