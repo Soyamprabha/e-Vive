@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/tanisha11do/google-solution-challenge/issues"
   },
-  "homepage": "https://github.com/tanisha11do/google-solution-challenge#readme",
+  "homepage": "https://github.com/Soyamprabha/google-solution-challenge",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "express.js": "^1.0.0",
