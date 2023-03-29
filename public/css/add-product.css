@@ -63,7 +63,7 @@ body{
     width: 60%;
     position: relative;
     height: 600px;
-    background-color: rgb(49, 78, 102);
+    background-color: rgb(24, 81, 135);
 }
 
 .upload-overlay{
@@ -110,18 +110,19 @@ body{
 }
 
 *[contenteditable="true"]:focus{
-    border-color: rgb(49, 78, 102);
+    border-color: rgb(24, 81, 135);
 }
 
 .des{
     height: 300px;
     white-space: pre-wrap;
-    color: #c0cfe5;
+    color: #ffffff;
     background-color: #ffffff;
 }
 
 .product-des{
     height: 60px;
+    color: #fff;
 }
 
 .head1{
@@ -135,11 +136,10 @@ body{
 }
 
 .text{
-    font-family: 'lato', sans-serif;
+    font-family: ;
     text-transform: capitalize;
     font-size: 1.1rem;
     line-height: 2rem;
-    opacity: .5;
     color: #fff;
 }
 
@@ -159,14 +159,14 @@ body{
     border: none;
     outline: none;
     color: #fff;
-    background: rgb(49, 78, 102);
+    background:  rgb(24, 81, 135);
     cursor: pointer;
     margin-right: 20px;
     border-radius: 5px;
 }
 
 .draft-btn{
-    background:  rgb(49, 78, 102);
+    background:   rgb(24, 81, 135);
     border-radius: 5px;
     color: rgb(255, 255, 255);
 }
@@ -181,4 +181,6 @@ body{
     color: black;
 }
 
-input.input-box, textarea { background: cyan; }
+input, textarea {
+    background-color: #ffffff;
+  }
