@@ -114,21 +114,23 @@ nav .menu{
   transition: all 0.3s ease;
 }
 .center .btns button:first-child{
-  color: #fff;
-  background: none;
-}
-.btns button:first-child:hover{
   background: white;
   color: black;
+  
 }
-.center .btns button:last-child{
+.btns button:first-child:hover{
   color: #fff;
   background: none;
+}
+.center .btns button:last-child{
+  background: white;
+  color: black;
+  
 }
 
 .btns button:last-child:hover{
-  background: white;
-  color: black;
+  color: #fff;
+  background: none;
 }
 
  

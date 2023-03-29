@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
   
-    background: linear-gradient(20deg, rgb(58, 117, 181) 12%, rgb(49, 78, 102) 83%); /*#467599;*/
+     background: black; /*#467599; linear-gradient(20deg, rgb(58, 117, 181) 12%, rgb(49, 78, 102) 83%) */
     border-bottom: 5px solid #ffeaea;
     box-shadow: 0 0 30px -18px #63b1e8;
   
@@ -108,7 +108,7 @@ body{
     font-weight: bold;
     text-align: center;
     color: #000000;
-    background-color: white;
+    background-color: rgb(24, 81, 135);
   }
   
   #chat_container{

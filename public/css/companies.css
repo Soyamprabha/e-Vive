@@ -104,9 +104,9 @@ img {
 
 .card_content {
   padding: 1rem;
-  background: #3700b3;
+  background: rgb(24, 81, 135);
   /* background: linear-gradient(220deg, rgb(144,191,125,1) 12%, rgb(107, 153, 89) 83%);  */
-   background: linear-gradient(220deg, rgb(78, 135, 188) 12%, rgb(24, 81, 135) 83%); 
+   /* background: linear-gradient(220deg, rgb(78, 135, 188) 12%, rgb(24, 81, 135) 83%);  */
 }
 
 .card_title {
