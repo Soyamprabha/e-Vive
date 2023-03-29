@@ -63,9 +63,11 @@ nav .menu{
   color: black;
 }
 .img{
-  background: url(https://www.mapleleaffoods.com/wp-content/uploads/sites/6/2022/01/Maple-Leaf-Foods-Electronic-Recycling-Program-Photo-Credit-Lya_Cattel.jpg);
+  background-image:
+  linear-gradient(to bottom, rgba(255, 255, 255, 0.107), rgba(2, 48, 133, 0.715)),
+  url(https://www.mapleleaffoods.com/wp-content/uploads/sites/6/2022/01/Maple-Leaf-Foods-Electronic-Recycling-Program-Photo-Credit-Lya_Cattel.jpg);
   width: 100%;
-  height:100vh;
+  height:100vh; 
   background-size: cover;
   background-position: center;
   position: relative;
@@ -89,12 +91,12 @@ nav .menu{
 .center .title{
   color: #fff;
   font-size: 55px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .center .sub_title{
   color: #fff;
   font-size: 52px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .center .btns{
   margin-top: 20px;
