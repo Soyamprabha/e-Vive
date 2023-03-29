@@ -32,8 +32,7 @@ body {
 }
 
 .background {
-    /* background: url("https://img.freepik.com/free-photo/assortment-sorted-tech-objects_23-2148996917.jpg") */
-    background: url("https://img.freepik.com/free-photo/robot-with-trash-recycle-symbol_1048-3561.jpg?w=900&t=st=1680072956~exp=1680073556~hmac=46dd20016b003b6e508f89412aa090771b858f3acc9b7fe772364a9d5fdf480e")
+    background: url("https://img.freepik.com/free-photo/assortment-sorted-tech-objects_23-2148996917.jpg")
     rgba(0, 0, 0, 0.61);
   background-repeat: no-repeat;
   background-size: cover;
