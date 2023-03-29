@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 * {    
     box-sizing: border-box;    
   }    
   body{
-    background-color: #ecf9ff;
+    background-color: #000000;
   }
       
   input[type=text], select, textarea {    
@@ -12,7 +12,7 @@
     border: 1px solid rgb(70, 68, 68);    
     border-radius: 4px;    
     resize: vertical;    
-    font-family:'Quicksand', serif;
+    font-family: 'Poppins',sans-serif;
   }    
   input[type=email], select, textarea {    
     width: 100%;    
@@ -20,40 +20,54 @@
     border: 1px solid rgb(70, 68, 68);    
     border-radius: 4px;    
     resize: vertical;    
-    font-family:'Quicksand', serif;
+    font-family: 'Poppins',sans-serif;
   }    
   h2{
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
-    font-family:'Quicksand', serif;
+    font-family: 'Poppins',sans-serif;
+    color: white;
   }  
   label {    
     padding: 12px 12px 12px 0;    
     display: inline-block;   
     font-size: 20px; 
-    font-family:'Quicksand', serif;
+    font-family: 'Poppins',sans-serif;
   }    
       
  a {    
-    background-color: rgba(37,104,168);    
-    color: white;    
-    font-size: 20px;
+    /* background-color: rgb(241, 241, 241);    
+    color: rgb(0, 0, 0);    
+    font-size: 17px;
     padding: 12px 20px;    
     border: none;    
     border-radius: 8px;    
     cursor: pointer;    
     float: right;  
+    margin-top: 10px;
     text-decoration: none;  
-    font-family:'Quicksand', serif;
+    font-family: 'Poppins',sans-serif; */
+  border-radius: 5px;
+  border: none;
+  margin-top:10px;
+  border: 2px solid white;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 5px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  float: right;
   }    
       
   a:hover {    
-    background-color: rgba(144,191,125);    
+    background-color: rgb(78, 135, 188);    
   }    
       
   .container {    
-    border-radius: 5px;    
-    background-color: rgb(169, 177, 194);    
+    border-radius: 10px;    
+    background: linear-gradient(20deg, rgb(38, 79, 124) 12%, rgb(49, 78, 102) 83%);   
     padding: 20px;    
   }    
       
@@ -61,16 +75,17 @@
     float: left;    
     width: 25%;    
     margin-top: 6px; 
-    font-size: 20px;   
-    font-family:'Quicksand', serif;
+    font-size: 10px;   
+    font-family: 'Poppins',sans-serif;
+    color: white;
   }    
       
   .col-75 {    
-    font-size: 40px;
+    font-size: 10px;
     float: left;    
     width: 75%;    
     margin-top: 6px;    
-    font-family:'Quicksand', serif;
+    font-family: 'Poppins',sans-serif;
   }    
       
   /* Clear floats after the columns */    
