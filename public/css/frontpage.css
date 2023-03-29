@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -63,7 +63,7 @@ nav .menu{
   color: black;
 }
 .img{
-  background: url(/google-solution-challenge-1/public/img/assortment-dirty-dumped-objects.jpg);
+  background: url(https://img.freepik.com/free-photo/assortment-dirty-dumped-objects_23-2148996978.jpg?w=740&t=st=1680102958~exp=1680103558~hmac=2f91310cd3a057ab44b95fc9176a1566dfb2c4e6dfd28c2343d9553df7379ac2);
   width: 100%;
   height:100vh;
   background-size: cover;

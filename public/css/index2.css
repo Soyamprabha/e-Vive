@@ -63,7 +63,7 @@ nav .menu{
   color: black;
 }
 .img{
-  background: url(/google-solution-challenge-1/public/img/assortment-dirty-dumped-objects.jpg);
+  background: url(/public/img/assortment-dirty-dumped-objects.jpg);
   width: 100%;
   height:100vh;
   background-size: cover;
