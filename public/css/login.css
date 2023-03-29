@@ -43,7 +43,7 @@ body {
   left: 0;
   right: 0;
   z-index: -1;
-  filter: blur(2px);
+  filter: blur(0px);
   min-height: 800px;
   
   }
@@ -78,6 +78,10 @@ p span {
 
 input {
   margin-bottom: 3%;
+}
+
+::placeholder{
+  color: #fff;
 }
 
 input:last-of-type {
