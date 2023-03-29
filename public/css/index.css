@@ -51,7 +51,7 @@ header {
     position: relative;
     top: -10px;
     z-index: 70;
-    background: linear-gradient(270deg, rgba(144,191,125,1) 12%, rgba(37,104,168,1)83%);
+    background: linear-gradient(10deg, rgba(144,191,125,1) 12%, rgba(37,104,168,1)83%);
 }
 
 header .container {
