@@ -19,6 +19,9 @@ body{
     height: 60%;
     object-fit:contain;
     margin-top: 315px;
+    position: relative;
+    top: -12.5rem;
+    left: -5rem;
 }
 
 .form{
@@ -31,7 +34,7 @@ body{
 }
 
 .form-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
     text-transform: capitalize;
     margin-bottom: 40px;
@@ -74,7 +77,7 @@ textarea{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    left: -10rem;
+    left: -4rem;
     margin-top: -35px;
   }
   
