@@ -17,8 +17,9 @@ body {
   letter-spacing: 0;
   padding: 1rem;
 }
-
-
+a{
+  text-decoration: none;
+}
 .main{
   max-width: 1200px;
   margin: 0 auto;
