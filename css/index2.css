@@ -116,7 +116,8 @@ nav .menu{
 .center .btns button:first-child{
   background: white;
   color: black;
-};
+}
+
 .btns button:first-child:hover{
   color: white;
   background: rgb(24, 81, 135);
