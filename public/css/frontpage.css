@@ -24,12 +24,21 @@ nav .menu{
   justify-content: space-between;
   padding: 0 20px;
 }
-.menu .logo a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 35px;
-  font-weight: 600;
+
+.logo{
+  display: flex;
+    align-items: center;
 }
+
+.img1{
+  width: 135px;
+    margin-right: 0.6rem;
+    position: relative;
+    margin-top: -0.6rem;
+    left: -50px;
+    top: 10px;
+}
+
 .menu ul{
   display: inline-flex;
 }
@@ -54,7 +63,7 @@ nav .menu{
   color: black;
 }
 .img{
-  background: url(/public/img/assortment-dirty-dumped-objects.jpg);
+  background: url(/google-solution-challenge/public/img/assortment-dirty-dumped-objects.jpg);
   width: 100%;
   height:100vh;
   background-size: cover;
@@ -113,7 +122,13 @@ nav .menu{
   color: black;
 }
 .center .btns button:last-child{
+  color: #fff;
+  background: none;
+}
+
+.btns button:last-child:hover{
   background: white;
   color: black;
 }
+
  
