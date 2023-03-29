@@ -2,10 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
 body{
 font-family: 'Work Sans', sans-serif;
-background: rgb(144,191,125);
-background: -webkit-linear-gradient(to right, rgb(144,191,125), rgba(37,104,168)); 
+background: #ecf9ff;
 
-background: linear-gradient(10deg, rgba(144,191,125,1) 12%, rgba(37,104,168,1) 83%);
 
 }
 
@@ -82,7 +80,7 @@ input:focus{
     
 
 .receipt{
-    background: #fffafa;
+    background: #a3b2ba;
      border-radius:4px;
       padding:5%; 
       padding-top:250px; 
@@ -103,10 +101,10 @@ input:focus{
 }
 
 .cost{
-    color:#3a7bd5;
+    color:#000000;
 }
 .seller{
-    color: #3a7bd5;
+    color: #000000;
 }
 .description{
     font-size: 20px;

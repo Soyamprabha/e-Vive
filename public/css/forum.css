@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
 body{
     /* https://www.color-hex.com/color/d3d3d3 */
-    background-color: #fff; /*#f6f6f6, EBEBD3, fafafa*/
+    background-color: #ecf9ff; /*#f6f6f6, EBEBD3, fafafa*/
     font-family: Bungee Outline;
     font-weight: 900;
   
@@ -23,9 +24,9 @@ body{
     justify-content: center;
     align-items: center;
   
-    background-color: blue;/*#467599;*/
-    border-bottom: 5px solid #fff;
-    box-shadow: 0 0 30px -18px #D64045;
+    background-color: rgba(37,104,168);/*#467599;*/
+    border-bottom: 5px solid #000000;
+    box-shadow: 0 0 30px -18px #63b1e8;
   
   }
   #title_inner_container{
@@ -42,14 +43,14 @@ body{
   #title{
     display: inline-block;
     color: #fff;/*EBEBD3, C5283D*/
-    font-size: 55px;
-    letter-spacing: 2px;
+    font-size: 65px;
+    letter-spacing: 5px;
     user-select: none;
   }
   
   #join_container{
     width: 100%;
-    height: 200px;
+    height: 800px;
   
     display: flex;
     justify-content: center;
@@ -78,7 +79,7 @@ body{
     height: 40px;
   
     color: #1D3354;
-    font-family: Varela Round;
+    font-family: 'Quicksand', serif;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -103,7 +104,7 @@ body{
     width: 60%;
     height: 40px;
   
-    font-family: Varela Round;
+    font-family: 'Quicksand', serif;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -227,7 +228,7 @@ body{
   .enabled{
     transition: background-color 0.5s;
     color: #fff;
-    background-color: #096847; /*#5B7553;*/
+    background-color: rgb(144,191,125); /*#5B7553;*/
     cursor: pointer;
   }
   #title_container.chat_title_container{
