@@ -234,27 +234,32 @@
 	 height: 40px;
 }
  .header {
-	 display: flex;
-	 justify-content: space-around;
-	 align-items: center;
-	 padding: 30px;
-	 background-color: #175794;
-	 height: 100px;
-	 margin-bottom: 50px;
-	 position: absolute;
-	 width: 100%;
-	 margin-top: -200px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #000000;
+    height: 100px;
+    margin-bottom: 50px;
+    position: absolute;
+    width: 100%;
+    left: -6px;
+    margin-top: -200px;
 }
  .login a {
 	 text-decoration: none;
 	 color: #dd8902;
      font-size: 30px;
+	 position: relative;
+	 left: -70px;
 }
 .postAd a {
 
     text-decoration: none;
     color: #dd8902;
     font-size: 30px;
+	position: relative;
+	 left: -50px;
 }
  .logo {
 	 padding: 0 20px;
@@ -268,5 +273,19 @@
 	 display: flex;
 	 justify-content: space-evenly;
 	 align-items: flex-end;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 140px;
+    margin-right: 0.6rem;
+    margin-top: -0.6rem;
+    position: relative;
+    left: -80px;
 }
  
