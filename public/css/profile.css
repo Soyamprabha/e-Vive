@@ -556,17 +556,17 @@ fieldset {
 .profile-page-block a {
     padding: 1.2em 1.4em;
     display: block;
-    color: var(--black);
+    color: var(--white);
     font-size: var(--paragraph);
     transition: color .25s ease-in-out;
     cursor: pointer;
 }
 .profile-page-block a i {
     margin: 0 .1em 0 0;
-    color: var(--black);
+    color: var(--white);
 }
 .profile-page-block a:hover {
-    color: var(--white);
+    color: var(--black);
 }
 .profile-page-inner {
     width: 100%;

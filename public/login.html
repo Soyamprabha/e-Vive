@@ -3,28 +3,52 @@
 <head>
   <title>Login</title>
   <link rel = "stylesheet" href = "./css/login.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
 <body>
-  <div class = "login-container">
-    <div id= "main">
-      <h1>Sign In</h1>
-      <input id = "email" type = "text" placeholder = "Email"></input>
-      <input id = "password" type = "password" placeholder = "Password"></input>
-      <button id = "submit">Submit</button>
-      <p><span>or</span></p>
-      <button id = "sign-up">Sign Up</button>
-    </div>
+  <div class="background"></div>
+    <div class="login-container">
+        <div id="main" class="mainN">
+            <h1>Sign In</h1>
+            <div class="form-item">
+                <span class="material-icons-outlined">
+                    account_circle
+                </span>
+                <input id="email" type="text" placeholder="Email"></input>
+            </div>
 
-    <div id = "create-acct">
-      <h1>Create an Account</h1>
-      <input id = "email-signup" type = "text" placeholder = "Email *"></input>
-  <input id = "confirm-email-signup" type = "email" placeholder = "Confirm Email *"></input>
-      <input id = "password-signup" type = "password" placeholder = "Password *"></input>
-      <input id = "confirm-password-signup" type = "password" placeholder = "Confirm Password *"></input>
-      <button id = "create-acct-btn">Create Account</button>
-      <button id = "return-btn">Return to Login</button>
+            <div class="form-item">
+                <span class="material-icons-outlined">
+                    lock
+                </span>
+                <input id="password" type="password" placeholder="Password"></input>
+            </div>
+            <button id="submit">SIGN IN</button>
+
+
+            <p><span>OR</span></p>
+            <button id="sign-up">SIGN UP</button>
+        </div>
+
+        <div id="create-acct" class="mainN1">
+            <div class="heading"><h1>Create an Account</h1></div>
+            
+            <div class="form-item1">
+                <input id="email-signup" type="text" placeholder="Email *"></input>
+            </div>
+            <div class="form-item1"><input id="confirm-email-signup" type="email" placeholder="Confirm Email *"></input>
+            </div>
+            <div class="form-item1">
+                <input id="password-signup" type="password" placeholder="Password *"></input>
+            </div>
+            <div class="form-item1">
+                <input id="confirm-password-signup" type="password" placeholder="Confirm Password *"></input>
+            </div>
+
+            <button id="create-acct-btn">Create Account</button>
+            <button id="return-btn">Return to Login</button>
+        </div>
     </div>
-  </div>
   <script type = "module" src = "./js/login.js"></script>
 </body>
 </html>
