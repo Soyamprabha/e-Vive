@@ -1,5 +1,15 @@
 
 
+// window.onload = () => {
+//     let user = JSON.parse(auth.currentUser || null);
+    
+//     if(user == null){
+//         location.replace('/login');
+//     } else if(user){
+//         location.replace('/dashboard');
+//     }
+// }
+
 let loader = document.querySelector('.loader');
 let applyBtn = document.querySelector('.apply-btn');
 
