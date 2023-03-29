@@ -105,6 +105,8 @@ input, button {
     background: transparent;
     box-shadow: 0 0 15px rgb(255, 255, 255);
     border-radius: 25px;
+    position: relative;
+    top: -3rem;
 }
 
 @keyframes saru {
@@ -219,4 +221,18 @@ button:hover {
   text-decoration: none;
   border: none;
   margin-top: 3%;
+}
+
+header {
+  position: relative;
+  top: -10px;
+}
+
+.img {
+  width: 150px;
+  position: relative;
+  top: 1rem;
+  left: 44%;
+  margin-right: 0.6rem;
+  margin-top: -0.6rem;
 }
