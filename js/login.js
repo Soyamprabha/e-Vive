@@ -64,7 +64,7 @@ createacctbtn.addEventListener("click", function() {
       const user = userCredential.user;
       // ...
       window.alert("Success! Account created.");
-      window.location.href = "./frontpage.html";
+    
     })
     .catch((error) => {
       const errorCode = error.code;
