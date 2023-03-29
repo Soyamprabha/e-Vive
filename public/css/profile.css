@@ -589,10 +589,10 @@ fieldset {
 }
 .profile-page-nav {
     width: 100%;
-    border-top : 2px solid;
-    background: var(--bc);   
-    border-bottom: 2px solid var(--bc-secondary);
-    transition: all .25s ease-in-out;
+    border-top: 2px solid #ffffff;
+    background: #1b1b1b;
+    border-bottom: 2px solid #ffffff;
+    transition: all .25s ease-in-out
 }
 .profile-page-block {
     color: var(--white);
@@ -601,17 +601,18 @@ fieldset {
 .profile-page-block a {
     padding: 1.2em 1.4em;
     display: block;
-    color: var(--white);
+    color: #ffffff;
     font-size: var(--paragraph);
-    transition: color .25s ease-in-out;
     cursor: pointer;
+    transition: 0.3s;
 }
 .profile-page-block a i {
     margin: 0 .1em 0 0;
-    color: var(--white);
+    color: #fff;
 }
 .profile-page-block a:hover {
     color: var(--black);
+    transform: scale(1.2);
 }
 .profile-page-inner {
     width: 100%;
@@ -648,7 +649,7 @@ fieldset {
 }
 .img-btns {
   font-size: 1.3em;
-  color: var(--white);
+  color: #fff;
   z-index: 10;
 }
 .img-overlay {
@@ -901,4 +902,18 @@ body.light .profile-page-block a {
     .profile-page-block a {
         font-size: calc(var(--paragraph) - .2em);
     }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.img1 {
+    width: 135px;
+    margin-right: 0.6rem;
+    position: relative;
+    margin-top: -0.6rem;
+    left: -30px;
+    top: 10px;
 }
