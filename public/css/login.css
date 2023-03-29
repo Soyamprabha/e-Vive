@@ -8,14 +8,56 @@
 }
 
 body {
-  background-color: #0583D2;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins,sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.mainN{
+    position: relative;
+    bottom: -4rem;
+    left:-10px;
+}
+
+.mainN1{
+  position: relative;
+  bottom: -4rem;
+  left:-10px;
+}
+
+.heading{
+  position: relative;
+  right: -24px;
+}
+
+.background {
+    background: url("https://img.freepik.com/free-photo/assortment-sorted-tech-objects_23-2148996917.jpg")
+    rgba(0, 0, 0, 0.61);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(2px);
+  min-height: 800px;
+  
+  }
+
+.main{
+    position: relative;
+    top: 1rem;
 }
 
 h1 {
   margin-bottom: 8%;
   text-align: center;
   font-family: "Fredoka One", cursive;
-  color: #0583D2;
+  color: #fff;
   letter-spacing: 0.1em;
 }
 
@@ -29,8 +71,9 @@ p {
 }
 
 p span {
-  background:#fff;
+  background:#000000;
   padding:0 10px;
+  color: antiquewhite;
 }
 
 input {
@@ -47,22 +90,102 @@ input, button {
 }
 
 .login-container {
-  background-color: white;
-  padding: 7%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  /* horizontal align */
-  width: 40vw;
-  margin-left: 30vw;
-  /* vertical align */
-  height: 70vh;
-  margin-top: 15vh;
+    animation: saru 4000ms 0ms infinite normal forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 70vh;
+    margin: 10vh auto;
+    background: transparent;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+@keyframes saru {
+  0%{
+      border-color:antiquewhite;
+      box-shadow: 1rem 1rem 2rem antiquewhite;
+  }
+  25%{
+      border-color: rgb(238, 238, 118);
+      box-shadow: 1rem 1rem 2rem rgb(238, 238, 118);
+  }
+  50%{
+      border-color: rgb(47, 120, 255);
+      box-shadow: 1rem 1rem 2rem rgb(47, 154, 255);
+  }
+  75%{
+      border-color: rgb(238, 238, 118);
+      box-shadow: 1rem 1rem 2rem rgb(238, 238, 118);
+  }
+  100%{
+      border-color:antiquewhite;
+      box-shadow: 1rem 1rem 2rem antiquewhite;
+  }
+}
+
+input {
+    background: transparent;
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin: auto;
+    color: white;
+    font-size: 17px;
+}
+
+span {
+    user-select: none;
+    margin: 5px;
+    color: rgb(172, 172, 172);
+    background: rgba(85, 81, 81, 0.637);
+    padding: 5px;
+    border-radius: 18px;
+  }
+
+  .form-item {
+    display: flex;
+    width: 120%;
+    background: transparent;
+    margin: 20px auto;
+    border-radius: 15px;
+    align-items: center;
+    border-bottom: 1px solid rgb(82, 81, 81);
+  }
+
+  .form-item1 {
+    display: flex;
+    width: 100%;
+    background: transparent;
+    margin: 20px auto;
+    border-radius: 15px;
+    align-items: center;
+    border-bottom: 1px solid rgb(82, 81, 81);
+  }
+
+  .form-item:hover,.form-item1:hover {
+    border: 1px solid rgb(82, 81, 81);
+    transition: 0.3s;
+   
+
 }
 
 #submit, #create-acct-btn {
-  background-color: #0583D2;
-  color: white;
-  border: none;
-  margin-top: 5%;
+    width: 180px;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 8px;
+    background: rgba(122, 123, 116, 0.72);
+    border: none;
+    color: white;
+    border-radius: 25px;
+}
+
+#submit:hover, #create-acct-btn:hover,#sign-up:hover{
+  background: rgb(47, 120, 255);
 }
 
 button:hover {
@@ -72,7 +195,14 @@ button:hover {
 }
 
 #sign-up {
+  width: 180px;
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 8px;
+  background: rgba(122, 123, 116, 0.72);
   border: none;
+  color: white;
+  border-radius: 25px;
 }
 
 #create-acct {
@@ -81,8 +211,8 @@ button:hover {
 
 #return-btn {
   background: none;
-  color: grey;
-  text-decoration: underline;
+  color: antiquewhite;
+  text-decoration: none;
   border: none;
   margin-top: 3%;
 }
