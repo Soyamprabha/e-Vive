@@ -23,7 +23,7 @@ window.onload = () => {
     
     if(user == null){
         location.replace('/login');
-    } else if(user.seller){
+    } else if(user){
         location.replace('/dashboard');
     }
 }
