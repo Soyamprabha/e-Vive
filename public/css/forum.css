@@ -108,7 +108,7 @@ body{
     font-weight: bold;
     text-align: center;
     color: #000000;
-    background-color: white;
+    background-color: rgb(24, 81, 135);
   }
   
   #chat_container{
