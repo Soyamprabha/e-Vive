@@ -19,7 +19,7 @@ const analytics = getAnalytics(app);
 const auth = getAuth(app);
 
 window.onload = () => {
-    let user = JSON.parse(sessionStorage.user || null);
+    let user = JSON.parse(auth.currentUser || null);
     
     if(user == null){
         location.replace('/login');
