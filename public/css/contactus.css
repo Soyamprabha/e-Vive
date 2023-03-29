@@ -15,7 +15,7 @@ body{
 }
 .container{
   width: 85%;
-  background: #fff;
+  background: #ffffff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -43,7 +43,7 @@ body{
   right: -15px;
   top: 50%;
   transform: translateY(-50%);
-  background: #afafb6;
+  background:  rgb(24, 81, 135);
 }
 .content .left-side .details{
   margin: 14px;
@@ -51,7 +51,7 @@ body{
 }
 .content .left-side .details i{
   font-size: 30px;
-  color:  rgb(49, 78, 102) ;
+  color:   rgb(24, 81, 135) ;
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -61,7 +61,7 @@ body{
 .content .left-side .details .text-one,
 .content .left-side .details .text-two{
   font-size: 14px;
-  color: #afafb6;
+  color: #000000;
 }
 .container .content .right-side{
   width: 75%;
@@ -69,8 +69,8 @@ body{
 }
 .content .right-side .topic-text{
   font-size: 23px;
-  font-weight: 600;
-  color:  rgb(49, 78, 102) ;
+  font-weight: 900;
+  color:   rgb(24, 81, 135) ;
 }
 .right-side .input-box{
   height: 50px;
@@ -106,7 +106,7 @@ a{
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background:   rgb(49, 78, 102) ;
+  background:    rgb(24, 81, 135) ;
   cursor: pointer;
   transition: all 0.3s ease;
   text-decoration: none;

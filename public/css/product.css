@@ -2,8 +2,8 @@
 
 :root{
     --white-light: rgba(255, 255, 255, 0.5);
-    --alice-blue: #0079f3;
-    --carribean-green: rgb(41, 117, 180);
+    --alice-blue:  rgb(24, 81, 135);
+    --carribean-green:   rgb(24, 81, 135);
     --gray: #ededed;
 }
 *{
