@@ -188,7 +188,7 @@ window.onload = function() {
         chat_logout.onclick = function(){
           localStorage.clear()
           // Go back to home page
-          parent.home()
+          window.location.href = "./frontpage.html";
         }
   
         chat_logout_container.append(chat_logout)
