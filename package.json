@@ -1,0 +1,27 @@
+{
+  "name": "google-solution-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanisha11do/google-solution-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanisha11do/google-solution-challenge/issues"
+  },
+  "homepage": "https://github.com/Soyamprabha/google-solution-challenge",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express.js": "^1.0.0",
+    "firebase": "^9.18.0",
+    "nodemon": "^2.0.22"
+  }
+}
