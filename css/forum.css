@@ -1,7 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 body{
-    /* https://www.color-hex.com/color/d3d3d3 */
-    background-color: #000000; /*#f6f6f6, EBEBD3, fafafa*/
+    background-color: #000000; 
     font-family: 'Poppins',sans-serif;
     font-weight: 900;
     overflow: hidden;
@@ -23,7 +22,7 @@ body{
     justify-content: center;
     align-items: center;
   
-     background: black; /*#467599; linear-gradient(20deg, rgb(58, 117, 181) 12%, rgb(49, 78, 102) 83%) */
+     background: black; 
     border-bottom: 5px solid #ffeaea;
     box-shadow: 0 0 30px -18px #63b1e8;
   
@@ -35,13 +34,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-  
-    /* background-color: #083D77; */
     border-radius: 200px;
   }
   #title{
     display: inline-block;
-    color: #fff;/*EBEBD3, C5283D*/
+    color: #fff;
     font-size: 65px;
     letter-spacing: 5px;
     user-select: none;
@@ -120,7 +117,6 @@ body{
   
     float: left;
     margin-top: 40px;
-    /* Fade in container */
     animation: fadeIn 1s linear;
   
   }
@@ -229,7 +225,7 @@ body{
   .enabled{
     transition: background-color 0.5s;
     color: #fff;
-    background-color: rgb(112, 175, 234); /*#5B7553;*/
+    background-color: rgb(112, 175, 234); 
     cursor: pointer;
   }
   #title_container.chat_title_container{
@@ -281,11 +277,11 @@ body{
   ::-webkit-scrollbar {
     width: 6px;
   }
-  /* Track */
+
   ::-webkit-scrollbar-track {
     background: #ccc;
   }
-  /* Handle */
+
   ::-webkit-scrollbar-thumb {
     background: #004e89;
     border-radius: 5px;
