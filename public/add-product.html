@@ -4,18 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add product</title>
+    <title>Online Store - Add Product</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="./css/product2.css">
     <link rel="stylesheet" href="./css/add-product.css">
+
 </head>
 <body>
 
-    <!--product detail-->
-<section class="product-section">
-    <img src="https://5.imimg.com/data5/SELLER/Default/2023/2/KG/AN/CS/15672770/laptop-scrap-buyers-250x250.jpg" class = "product-image" alt="">
+    
+  
+    <h1 class="title">Add product</h1>
+
+    <div class="error">
+        <p>some error occured</p>
+    </div>
+
+    <!-- product detail -->
+    <section class="product-section">
+        <!-- upload image section -->
+        <div class="image-upload-container">
+            <input type="file" id="upload-image" accept="image/png, image/jpeg" hidden>
+            <label for="upload-image" class="upload-overlay">Upload Image</label>
+            <img class="product-img">
+        </div>
+        
+        <div class="product-detail">
+            <h1 class="product-title" contenteditable="true" placeholder="product name">Product name</h1>
+            <p class="product-des" contenteditable="true" placeholder="short description">Brief Description</p>
+            
+            <p class="price" contenteditable="true" placeholder="price without $">Enter the price</p>
+           
+        </div>
+    </section>
+    
+    <section class="detail-des">
+        <h1 class="section-title">Give Details</h1>
+        <p class="des" contenteditable="true" data-placeholder="Details, you can add images using HTML img tag"></p>
+
+    </section>
 
 
+    <div class="btn-wrapper">
+        <a href="./product.html">
+            <button class="product-btn add-product-btn">add product</button>
+        </a>
+       
+        <button class="product-btn draft-btn">save draft</button>
+    </div>
 
-</section>
-      
+    <script src="../js/common.js"></script>
+    <script src="../js/add-product.js"></script>
+    
 </body>
 </html>
