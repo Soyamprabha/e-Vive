@@ -14,12 +14,6 @@ body {
     color: rgb(0, 0, 0);
 }
 
-/* .mainN{
-    position: relative;
-    bottom: -4rem;
-    left:-10px;
-} */
-
 .mainN1{
   position: relative;
   bottom: -4rem;
@@ -109,29 +103,6 @@ input, button {
     position: relative;
     top: -3rem;
 }
-
-/* @keyframes saru {
-  0%{
-      border-color:antiquewhite;
-      box-shadow: 1rem 1rem 2rem antiquewhite;
-  }
-  25%{
-      border-color: rgb(238, 238, 118);
-      box-shadow: 1rem 1rem 2rem rgb(238, 238, 118);
-  }
-  50%{
-      border-color: rgb(47, 120, 255);
-      box-shadow: 1rem 1rem 2rem rgb(47, 154, 255);
-  }
-  75%{
-      border-color: rgb(238, 238, 118);
-      box-shadow: 1rem 1rem 2rem rgb(238, 238, 118);
-  }
-  100%{
-      border-color:antiquewhite;
-      box-shadow: 1rem 1rem 2rem antiquewhite;
-  }
-} */
 
 input {
     background: transparent;

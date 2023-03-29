@@ -15,7 +15,6 @@ body{
     font-family: 'Poppins',sans-serif;
 }
 nav{
-    /* position: fixed; */
     background: #1b1b1b;
     width: 100%;
     padding: 10px 0;
@@ -113,7 +112,6 @@ img{
 /* product section */
 .products{
     background: rgb(0, 0, 0);
-    /* background: linear-gradient(10deg, rgba(144,191,125,1) 12%, rgba(37,104,168,1) 83%); */
     padding: 3.2rem 0;
 }
 .products .text-light{
@@ -281,13 +279,6 @@ img{
     background: var(--carribean-green);
 }
 
-
-
-
-
-
-
-/* Media Queries */
 @media screen and (min-width: 992px){
     .product-items{
         display: grid;
