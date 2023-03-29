@@ -1,30 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-    margin: 0; padding: 0;
-}
 body{
     padding: 100px 0;
     background-color: rgb(0, 0, 0);
-    font-family: 'Poppins',sans-serif;
 }
 
 
-.loader{ 
+.loader{
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 10px;
+    width: 100px;
     z-index: 5;
     display: none;
 }
 
 .title{
     text-align: center;
-    font-size: 2.7rem;
+    font-size: 3rem;
     margin-bottom: -30px;
-    font-weight: 800;
-    line-height: 1rem;
+    font-weight: 100;
+    line-height: 3rem;
     /*opacity: 0.5;*/
     color: #ffffff;}
 
@@ -38,7 +34,7 @@ body{
     background: #fff;
     border-radius: 10px;
     padding: 20px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'lato', sans-serif;
     transition: .5s;
     font-size: 1rem;
     line-height: 1.2rem;
@@ -64,10 +60,10 @@ body{
 }
 
 .image-upload-container{
-    width: 50%;
+    width: 60%;
     position: relative;
-    height: 400px;
-    background-color: rgb(24, 81, 135);
+    height: 600px;
+    background-color: rgb(49, 78, 102);
 }
 
 .upload-overlay{
@@ -82,8 +78,8 @@ body{
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 1.4rem;
-    font-family: 'Poppins',sans-serif;
+    font-size: 2rem;
+    font-family: 'lato', sans-serif;
     text-transform: capitalize;
     opacity: 0;
     transition: .5s;
@@ -94,8 +90,8 @@ body{
 }
 
 .product-detail{
-    width: 40%;
-    max-width: 40%;
+    width: 60%;
+    max-width: 60%;
 }
 
 .disable{
@@ -114,34 +110,34 @@ body{
 }
 
 *[contenteditable="true"]:focus{
-    border-color: rgb(24, 81, 135);
+    border-color: rgb(49, 78, 102);
 }
 
 .des{
-    height: 200px;
-    width: 1340px;
-    color: #ffffff;
+    height: 300px;
+    white-space: pre-wrap;
+    color: #c0cfe5;
     background-color: #ffffff;
 }
 
 .product-des{
-    height: 40px;
+    height: 60px;
 }
 
 .head1{
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .section-title{
     color: #fff;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .text{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'lato', sans-serif;
     text-transform: capitalize;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     opacity: .5;
     color: #fff;
@@ -150,7 +146,7 @@ body{
 .tags{
     height: 300px;
     margin: 20px 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: lato, sans-serif;
 }
 
 .btn-wrapper{
@@ -163,18 +159,16 @@ body{
     border: none;
     outline: none;
     color: #fff;
-    background: rgb(24, 81, 135);
+    background: rgb(49, 78, 102);
     cursor: pointer;
     margin-right: 20px;
     border-radius: 5px;
-    font-size: 20px;
 }
 
 .draft-btn{
-    background:  rgb(24, 81, 135);
+    background:  rgb(49, 78, 102);
     border-radius: 5px;
     color: rgb(255, 255, 255);
-    font-size: 20px;
 }
 
 .draft-btn:hover{
@@ -183,7 +177,7 @@ body{
 }
 
 .add-product-btn:hover{
-    background-color: #fffdfd;
+    background-color: #ffffff;
     color: black;
 }
 
