@@ -682,14 +682,14 @@ fieldset {
     color: #fff;
     background-color:  rgb(24, 81, 135);
     border-radius: 16px;
-    transform: translate(-15%,140px);
+    transform: translate(-45%,140px);
     cursor: pointer;
     font-size: 20px;
     transition: all 0.3s ease;
 }
 
 .products:hover{
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(24, 81, 135);
 }
 
 
