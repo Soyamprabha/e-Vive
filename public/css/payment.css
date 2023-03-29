@@ -137,5 +137,20 @@ input:focus{
 }
 .sendicon{
     filter:invert(100%);
-     padding-top:2px;}
+     padding-top:2px;
+    }
+
+     .logo {
+        display: flex;
+        align-items: center;
+    }     
+
+    .img1 {
+        width: 150px;
+    margin-right: 0.6rem;
+    position: relative;
+    margin-top: -0.6rem;
+    left: 40%;
+    top: 35px
+    }
 
