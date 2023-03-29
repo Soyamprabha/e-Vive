@@ -88,12 +88,12 @@ nav .menu{
 }
 .center .title{
   color: #fff;
-  font-size: 55px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 700;
 }
 .center .sub_title{
   color: #fff;
-  font-size: 52px;
+  font-size: 40px;
   font-weight: 600;
 }
 .center .btns{
@@ -107,28 +107,28 @@ nav .menu{
   margin: 0 10px;
   border: 2px solid white;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0 10px;
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
 }
 .center .btns button:first-child{
-  color: rgb(24, 81, 135);
-  background: none;
-}
-.btns button:first-child:hover{
   background: white;
   color: black;
+};
+.btns button:first-child:hover{
+  color: white;
+  background: rgb(24, 81, 135);
 }
 .center .btns button:last-child{
-  color: rgb(24, 81, 135);
-  background: none;
+  background: white;
+  color: black;;
 }
 
 .btns button:last-child:hover{
-  background: white;
-  color: black;
+  color: white;
+  background: rgb(24, 81, 135);
 }
 
  
