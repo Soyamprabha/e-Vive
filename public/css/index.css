@@ -101,6 +101,12 @@ header .container {
     transform: scale(1.05);
 }
 
+.right img{
+    width: 700px;
+    height: 670px;
+   object-position: 150px 30px;
+}
+
 .btn {
     display: inline-block;
     padding: 0.9rem 1.9rem;
@@ -109,6 +115,7 @@ header .container {
     border-radius: 16px;
     text-transform: capitalize;
     transition: 0.3s;
+    font-weight: 500;
 }
 
 .btn:hover {
