@@ -7,7 +7,7 @@
     --white: #000000;
     --black: #ffffff;
     /* Colors */
-    --blue-darker: #0C84B3;
+    --blue-darker:  rgb(24, 81, 135);
     /* Gray Colors */
     --gray: #6c757d;
     --gray-light: #000000;
@@ -81,7 +81,7 @@ nav{
     color: #fff;
     font-weight: 800;
     text-transform: capitalize;
-    background-color: rgb(40, 124, 202);
+    background-color:  rgb(24, 81, 135);
 }
 
 fieldset {
@@ -680,16 +680,16 @@ fieldset {
 .products{
     padding: 0.9rem 1.9rem;
     color: #fff;
-    background-color: rgb(40, 124, 202);
+    background-color:  rgb(24, 81, 135);
     border-radius: 16px;
-    transform: translate(-45%,140px);
+    transform: translate(-15%,140px);
     cursor: pointer;
     font-size: 20px;
     transition: all 0.3s ease;
 }
 
 .products:hover{
-    background-color: rgb(87, 148, 204);
+    background-color: rgb(254, 254, 254);
 }
 
 
@@ -853,7 +853,7 @@ fieldset {
 }
 
 .img1 {
-    width: 135px;
+    width: 150px;
     margin-right: 0.6rem;
     position: relative;
     margin-top: -0.6rem;

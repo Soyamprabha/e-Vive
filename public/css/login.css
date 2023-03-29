@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 body {
     padding: 0;
     margin: 0;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     color: rgb(0, 0, 0);
 }
 
-.mainN{
+/* .mainN{
     position: relative;
     bottom: -4rem;
     left:-10px;
-}
+} */
 
 .mainN1{
   position: relative;
@@ -49,14 +49,15 @@ body {
   }
 
 .main{
-    position: relative;
-    top: 1rem;
+  position: relative;
+  bottom: -4rem;
+  left:-10px;
 }
 
 h1 {
   margin-bottom: 8%;
   text-align: center;
-  font-family: "Fredoka One", cursive;
+  font-family: 'Poppins',sans-serif;
   color: #fff;
   letter-spacing: 0.1em;
 }
@@ -102,14 +103,14 @@ input, button {
     width: 500px;
     height: 70vh;
     margin: 10vh auto;
-    background: transparent;
+    background: #1b1b1b;
     box-shadow: 0 0 15px rgb(255, 255, 255);
     border-radius: 25px;
     position: relative;
     top: -3rem;
 }
 
-@keyframes saru {
+/* @keyframes saru {
   0%{
       border-color:antiquewhite;
       box-shadow: 1rem 1rem 2rem antiquewhite;
@@ -130,7 +131,7 @@ input, button {
       border-color:antiquewhite;
       box-shadow: 1rem 1rem 2rem antiquewhite;
   }
-}
+} */
 
 input {
     background: transparent;
@@ -191,7 +192,7 @@ span {
 }
 
 #submit:hover, #create-acct-btn:hover,#sign-up:hover{
-  background: rgb(47, 120, 255);
+  background:  rgb(24, 81, 135);
 }
 
 button:hover {
@@ -228,11 +229,15 @@ header {
   top: -10px;
 }
 
-.img {
-  width: 150px;
+.logo img {
+  width: 180px;
   position: relative;
   top: 1rem;
-  left: 44%;
+  left: 42%;
   margin-right: 0.6rem;
   margin-top: -0.6rem;
+}
+
+a{
+  text-decoration: none;
 }

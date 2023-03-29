@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,20 +9,21 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
-    background: #fff;
-    font-family: 'lato', sans-serif;
+    background: #ffffff;
+    font-family: 'Poppins',sans-serif;
     background-color: black;
 }
 
 .seller-img{
     width: 40%;
-    height: 100%;
-    object-fit: cover;
+    height: 60%;
+    object-fit:contain;
+    margin-top: 315px;
 }
 
 .form{
-    width: 60%;
-    padding: 20px;
+    width: 90%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,8 +31,8 @@ body{
 }
 
 .form-title{
-    font-size: 1.8rem;
-    color: rgb(49, 78, 102);
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
     text-transform: capitalize;
     margin-bottom: 40px;
 }
@@ -40,15 +42,15 @@ input, textarea{
     border: 1px solid #ccc;
     border-radius: 5px;
     height: 1.2rem;
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     padding: 10px;
     margin: 10px 0;
 }
 
 textarea{
-    height: 8rem;
-    font-family: 'lato', sans-serif;
+    height: 6rem;
+    font-family: 'Poppins',sans-serif;
     resize: none;
     outline: none;
 }
@@ -56,12 +58,37 @@ textarea{
 .apply-btn{
     width: 250px;
     padding: 10px 0;
-    font-size: .9rem;
+    font-size: 1rem;
+    font-weight: 700;
     text-transform: capitalize;
-    background:  rgb(49, 78, 102);
+    background:  rgb(24, 81, 135);
     border: none;
     color: #fff;
     margin-top: 20px;
     cursor: pointer;
     font-family: 'cinzel';
 }
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: -10rem;
+    margin-top: -35px;
+  }
+  
+  .logo img {
+    width: 180px;
+    position: relative;
+    top: 0rem;
+    /* left: 2%; */
+    margin-right: 0.6rem;
+    margin-top: -0.6rem;
+  }
+  
+  .heading{
+    position: relative;
+    left: 2rem;
+    bottom: -0.5rem;
+  }

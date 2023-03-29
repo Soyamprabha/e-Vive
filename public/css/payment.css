@@ -10,7 +10,7 @@ background: #000000;
 .card{
    
     margin-bottom: 100px;
-  background:rgb(114, 187, 246);  
+  background:  rgb(24, 81, 135);  
   border-radius:14px;
    max-width: 500px;
     display:block; 
@@ -51,7 +51,7 @@ input{
     
 
 input:focus{
-    border-bottom:1px solid #0bffce; 
+    border-bottom:1px solid #ffffff; 
     outline:none;}
 
 .cardnumber{
@@ -141,8 +141,8 @@ input:focus{
     }
 
      .logo {
-        display: flex;
-        align-items: center;
+      margin-left: -800px;
+        height: 0px;
     }     
 
     .img1 {
