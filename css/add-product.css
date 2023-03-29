@@ -33,7 +33,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 200px;
-    min-height: 100px;
+    min-height: 50px;
     background: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -58,14 +58,14 @@ body{
 }
 
 .product-image{
-    background: #fff;
+    background: #fffefe;
     width: 100%;
 }
 
 .image-upload-container{
     width: 50%;
     position: relative;
-    height: 400px;
+    height: 600px;
     background-color: rgb(24, 81, 135);
 }
 
@@ -103,7 +103,7 @@ body{
 }
 
 .cart-btn{
-    background: #d5be8b;
+    background: #ffffff;
 }
 
 *[contenteditable="true"]{
@@ -113,7 +113,7 @@ body{
 }
 
 *[contenteditable="true"]:focus{
-    border-color: rgb(24, 81, 135);
+    border-color: rgb(255, 255, 255);
 }
 
 .des{
@@ -147,7 +147,7 @@ body{
 }
 
 .tags{
-    height: 100px;
+    height: 00px;
     margin: 0px 0;
     font-family: "Poppins", sans-serif;
 }
