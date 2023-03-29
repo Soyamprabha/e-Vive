@@ -125,3 +125,24 @@ img {
   margin-bottom: 1.25rem;    
   font-weight: 400;
 }
+
+.upper{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -35px;
+}
+
+.logo img {
+  width: 180px;
+  position: relative;
+  top: 0rem;
+  left: 2%;
+  margin-right: 0.6rem;
+  margin-top: -0.6rem;
+}
+
+.heading{
+  position: relative;
+  left: -22rem;
+}
