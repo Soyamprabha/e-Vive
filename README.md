@@ -21,6 +21,8 @@
 
 #### 2. Open the repository in editor. 
 
+#### 3. Now go to the index.html page.
+
 #### 3. Run the code with live server.
 
 #### OR Visit our project with the direct link given below.
