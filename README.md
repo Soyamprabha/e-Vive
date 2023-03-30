@@ -1,5 +1,5 @@
 # **e-Vive** 
-## **When Innovation meets Sustainability**
+## **Where Innovation meets Sustainability**
 
 ### **Problem Statement**
 
