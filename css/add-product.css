@@ -18,11 +18,12 @@ body{
 .title{
     text-align: center;
     font-size: 2.5rem;
+    margin-top: -3rem;
     margin-bottom: -30px;
     font-weight: 700;
     line-height: 2rem;
     letter-spacing: 3px;
-    /*opacity: 0.5;*/
+    /* opacity: 0.5; */
     color: #ffffff;
     font-family: "Poppins" , sans-serif;
 }
@@ -63,9 +64,9 @@ body{
 }
 
 .image-upload-container{
-    width: 50%;
+    width: 20rem;
     position: relative;
-    height: 600px;
+    height: 20rem;
     background-color: rgb(24, 81, 135);
 }
 
@@ -95,6 +96,9 @@ body{
 .product-detail{
     width: 40%;
     max-width: 40%;
+    position: relative;
+    left: 4rem;
+    top: -2rem;
 }
 
 .disable{
@@ -118,18 +122,19 @@ body{
 
 .des{
     height: 200px;
-    width: 1330px;
+    width: 90%;
     color: #000000;
     background-color: #ffffff;
 }
 
 .product-des{
     height: 40px;
+    margin-top: -5px;
 }
 
 .head1{
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .section-title{
@@ -155,6 +160,8 @@ body{
 .btn-wrapper{
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 40px;
 }
 
 .add-product-btn{
@@ -185,3 +192,27 @@ body{
     background-color: #ffffff;
     color: black;
 }
+
+.upper{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+    left: 20rem;
+    margin-top: -35px;
+  }
+  
+  .logo img {
+    width: 180px;
+    position: relative;
+    top: -1rem;
+    margin-right: 0.6rem;
+    margin-top: -0.6rem;
+    left: -6.5rem;
+  }
+  
+  .heading{
+    position: relative;
+    left: 2rem;
+    bottom: -0.5rem;
+  }
